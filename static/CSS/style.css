@@ -1,0 +1,818 @@
+/* header */
+
+.header-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1136px;
+    height: 90px;
+    align-items: center;
+    word-spacing: 50px;
+  
+}
+.navbar a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 15px;
+    color: #863503;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;  
+}
+.navbar li {
+    list-style: none;
+}
+.navbar {
+    width: 380px;
+}
+.navbar-two a {
+
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 15px;
+    color: #863503;
+   
+}
+.navbar-two {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-two li {
+    list-style: none;
+}
+.navbar-two ul {
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between; 
+}
+#inputbox {
+    border-color: white;
+    background-color: #D29E7E1A;
+    height: 30px;
+    border-radius: 7px;
+}
+.search-bar {
+    width: 480px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-bar input {
+    width: 200px;
+    height: 20px;
+    border: none;
+    outline:#D29E7E1A ;
+}
+.search-bar input :hover {
+    border: none;
+}
+i.fa-solid.fa-magnifying-glass {
+    padding-left: 15px;
+    color: #863503;
+    position: relative;
+    right: 40px;
+    top: 7px;
+    
+}
+
+
+
+
+
+
+/* menu page section */
+
+.the-menu {
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    position: relative;
+    left: 40%;
+    width: 350px;
+}
+
+.the-menu a {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: #863503;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.the-menu :hover {
+    opacity: 0.5;
+    transition: 0.20s;
+}
+
+.hot-border {
+    border-right: 1px solid black;
+    height: 30px;
+    position: relative;
+}
+
+.cold-border {
+    border-right: 1px solid black;
+    height: 30px;
+    position: relative;
+   
+}
+.card-one {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.card-two {
+
+    display: flex;
+    width: 370px;
+    justify-content: space-around;
+
+}
+.card-two img {
+
+    width: 200px;
+    height: 222px;
+    left: 80px;
+    cursor: pointer;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.img-info {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.shop-container {
+    margin: 0 auto;
+    max-width:850px;
+    width: 90%;
+}
+
+.card-one img {
+    width: 200px;
+    height: 222px;
+}
+
+.hot-coffee {
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #05520D;
+
+}
+.price {
+    font-family: 'Roboto Slab', serif;
+    color:#7D0202;
+
+}
+
+.latte {
+
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    position: relative;
+    left: 30px;
+    width: 180px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #05520D;
+    cursor: pointer;
+
+}
+.two-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 20px;
+
+}
+
+
+/* cold drink section */
+
+.the-menu {
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    position: relative;
+    left: 40%;
+    width: 350px;
+
+}
+
+.the-menu a {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: #863503;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.the-menu :hover {
+    opacity: 0.5;
+    transition: 0.20s;
+}
+
+.hot-border {
+    border-right: 1px solid black;
+    height: 30px;
+    position: relative;
+}
+
+.cold-border {
+    border-right: 1px solid black;
+    height: 30px;
+    position: relative;
+   
+}
+.card-one {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.img-info {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.shop-container {
+    margin: 0 auto;
+    max-width:850px;
+    width: 90%;
+}
+
+.card-one img {
+    width: 200px;
+    height: 222px;
+}
+.price {
+    font-family: 'Roboto Slab', serif;
+    color:#7D0202;
+
+}
+
+.cold-coffee {
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #05520D;
+
+}
+
+/* food section */
+
+.the-menu {
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    position: relative;
+    left: 40%;
+    width: 350px;
+
+}
+
+.the-menu a {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: #863503;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.the-menu :hover {
+    opacity: 0.5;
+    transition: 0.20s;
+}
+
+.hot-border {
+    border-right: 1px solid black;
+    height: 30px;
+    position: relative;
+}
+
+.cold-border {
+    border-right: 1px solid black;
+    height: 30px;
+    position: relative;
+   
+}
+
+.card-one {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.img-info {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.shop-container {
+    margin: 0 auto;
+    max-width:850px;
+    width: 90%;
+}
+
+.card-one img {
+    width: 200px;
+    height: 222px;
+}
+.price {
+    font-family: 'Roboto Slab', serif;
+    color:#7D0202;
+
+}
+
+.food-type{
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #05520D;
+
+}
+.pancake {
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #05520D;
+    position: relative;
+    left: 50px;
+
+}
+
+.nutella {
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #05520D;
+    position: relative;
+    left: 50px;
+
+}
+
+.salmon {
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #05520D;
+    position: relative;
+    left: 50px;
+
+}
+
+
+
+/* about us section */
+
+.about-container {
+    margin: 0 auto;
+    width: 900px;
+}
+.info-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.about-img {
+    height: 465px;
+    width: 445px;
+}
+
+.history {
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #05520D;
+    font-size: 13px;
+    position: relative;
+    left: 30px;
+    top:100px;
+}
+
+.vision {
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #05520D;
+    font-size: 13px;
+    position: relative;
+    left: 165px;
+
+}
+
+.mission {
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #05520D;
+    font-size: 13px;
+    position: relative;
+    left: 30;
+}
+
+
+.about-p {
+    width: 300px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #863503;
+    font-weight: 400;
+    text-align: justify;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+.about-p-two {
+
+    width: 300px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #863503;
+    font-weight: 400;
+    text-align: justify;
+
+}
+.about-p-three {
+    width: 300px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #863503;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.place-img :hover {
+    transform: scale(1.2);
+    z-index: 1.5;
+    transition: 1.25s;
+}
+
+/* location section */
+
+
+.find-us h1 {
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #05520D;
+    font-size: x-large;
+    padding-top: 50px;
+    padding-left: 42%;
+    
+}
+
+.all-info {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    left: 20%;
+
+}
+.all-location li {
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #863503;
+    font-weight: 600;
+    font-size: 18px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tips li {
+
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #863503;
+    font-weight: 400;
+    font-size: 18px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.times li {
+    list-style: none;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #863503;
+    font-weight: 400;
+    font-size: 18px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.the-map {
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    left: 30%;
+    width: 600px;
+    height: 300px;
+}
+
+
+
+
+/* contact section */
+
+.contact-container {
+    margin: 0 auto;
+    width: 870px;
+}
+
+.form-wrapper {
+    display: grid;
+}
+
+.form-wrapper textarea {
+    grid-column: 1/3;
+    resize: none;
+}
+
+.form-wrapper input, .form-wrapper textarea {
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid #863503;
+    padding: 20px 40px;
+}
+
+.contactbox {
+    margin: 0 auto;
+    width: 500px;
+}
+.contact-title {
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #05520D;
+    font-size: 25px;
+    position: relative;
+    left: 180px;
+    
+}
+.contact-p {
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #863503;
+    position: relative;
+    left: 30px;
+}
+
+p.submit {
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #863503;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+}
+
+
+.message-button a {
+    list-style: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 8px;
+    left: 15px;
+
+
+}
+.message-send {
+    border: 2px solid #05520D;
+    border-radius: 10px;
+    width: 120px;
+    height: 35px;
+}
+
+.message-container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 10px;
+}
+
+/* submition section */
+
+.submit-img {
+    width: 110px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    left: 39%;
+}
+
+.submit-tasks {
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 70px;
+}
+.thank-you {
+    position: relative;
+    left: 42%;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #863503;
+    
+}
+.feedback {
+    position: relative;
+    left: 30%;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #863503;
+
+}
+.team {
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #863503;
+}
+
+/* footer */
+
+.footer-box {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #B78A6D3D;
+}
+
+.footer-container {
+
+    margin: 0 auto;
+    max-width: 1132px;
+    height: 100%;
+    display: flex;
+
+}
+.footer-one {
+    position: relative;
+    top: 80px;
+    height:100px ;
+}
+.icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    color: #7D0202;
+    cursor: pointer;
+   
+}
+
+.footer-paragraph {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:#400404;
+    position: relative;
+    top: 30px;
+}
+
+.footer-paragraph span {
+    text-transform: capitalize;
+}
+
+.second-box {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    width: 500px;
+    position: relative;
+    left: 400px;
+    top: 30px;
+    height: 100px;
+}
+
+.find-us {
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #05520D;
+    font-weight: 600;
+
+}
+.contact-us {
+
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    color: #05520D;
+    font-weight: 600;
+
+}
+
+.footer-nav li {
+    list-style: none;
+    text-decoration: none;
+}
+.footer-nav {
+    position: relative;
+    right: 40px;
+    color:#863503;
+    text-transform: capitalize;
+    top: 10px;
+}
+   
+
+.footer-nav-two {
+    position: relative;
+    right: 40px;
+       top: 10px;
+   
+}
+
+.footer-nav-two li {
+    list-style: none;
+    text-decoration: none;
+    color: #863503;
+    text-transform: capitalize;
+}
+
+.footer-nav-two a {
+
+    color: #863503;
+
+}
+.footer-nav ul {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer-nav-two ul {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+
+
